@@ -1,4 +1,9 @@
-from TreatData import load_data
-products = load_data()
+from TreatData import load_data, clean_data
 
+products = load_data()
+products = clean_data(products)
 print(products.info())
+
+
+
+
