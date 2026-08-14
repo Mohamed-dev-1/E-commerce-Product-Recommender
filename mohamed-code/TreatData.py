@@ -5,5 +5,5 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 #load data
 def load_data():
-    products = pd.read_csv('uncleaned_Dataset_1k.csv')
+    products = pd.read_csv('dataset/uncleaned_Dataset_1k.csv')
     return products
