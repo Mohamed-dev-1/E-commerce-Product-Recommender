@@ -65,11 +65,3 @@ def recommend_content(product_title, df, cosine_sim, top_n=5):
 
     # return list of recommended_products -> list of df rows reccommended
     return recommended_products
-
-# test
-
-target_product = "Gaming Desktop RTX 4070"
-
-recommendations = recommend_content(target_product, products, cosine_sim, top_n=5)
-
-print(recommendations[["Product_Name", "Category_Path"]])
